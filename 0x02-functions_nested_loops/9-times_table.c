@@ -5,7 +5,7 @@
  * starting with 0
  * Return: times table
  */
-void times_tables(void)
+void times_table(void)
 {
 	int i, j, n;
 
