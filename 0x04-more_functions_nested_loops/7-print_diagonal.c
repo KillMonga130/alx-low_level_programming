@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_digonal - prints digonal line based on the value passed
+ * print_diagonal - prints digonal line based on the value passed
  * @n: the length of the line
  * Return: line
  */
