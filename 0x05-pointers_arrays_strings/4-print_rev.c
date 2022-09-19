@@ -12,7 +12,7 @@ void print_rev(char *s)
 	while (s[reverse])
 		reverse++;
 
-	while (recverse--)
+	while (reverse--)
 	{
 		_putchar(s[reverse]);
 	}
