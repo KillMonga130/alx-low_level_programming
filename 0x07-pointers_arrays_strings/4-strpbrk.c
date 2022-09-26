@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * _strbrk - searches a string for any set of bytes
+ * _strpbrk - searches a string for any set of bytes
  * @s: input string
  * @accept: string we search
  * Return: s else null if no such byte is found
  */
 
-char *_strbrk(char *s, char *accept)
+char *_strpbrk(char *s, char *accept)
 {
 	int i = 0, j;
 
