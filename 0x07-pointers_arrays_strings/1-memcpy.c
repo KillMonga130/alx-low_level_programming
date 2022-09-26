@@ -5,9 +5,8 @@
  * @dest: destination
  * @src: source
  * @n: bytes filled
- * Return : dest
+ * Return: dest
  */
-
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
 	unsigned int a;
