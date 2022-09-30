@@ -10,14 +10,8 @@
 
 int main(int argc, char __attribute__((unused))*argv[])
 {
-	int i = 0, m;
-
-	while (i < argc)
-	{
-		m = 1;
-		i++;
-	}
-	printf("%d\n", i);
+	(void)*argv;
+	printf("%d\n", argc - 1);
 
 	return (0);
 }
