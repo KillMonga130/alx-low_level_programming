@@ -13,15 +13,4 @@ void print_integer(va_list list);
 void print_char(va_list list);
 void print_float(va_list list);
 void print_string(va_list list);
-/**
- * struct datatype_func - Struct
- * @type: Type of first argument type points to
- * @f: function used to print
- */
-typedef struct datatype_func
-{
-	char *type;
-	void (*fmod)(va_list);
-} datatype_func;
-
 #endif
