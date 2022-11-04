@@ -1,30 +1,3 @@
-
-Search or jump to…
-Pulls
-Issues
-Marketplace
-Explore
- 
-@KillMonga130 
-PrinceAy1
-/
-alx-low_level_programming
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-alx-low_level_programming/0x15-file_io/100-elf_header.c
-@PrinceAy1
-PrinceAy1 Create 100-elf_header.c
-Latest commit 4a12c0a on 1 Jun
- History
- 1 contributor
-314 lines (286 sloc)  6.69 KB
-
 #include <elf.h>
 #include <sys/types.h>
 #include <sys/stat.h>
